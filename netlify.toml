@@ -1,0 +1,9 @@
+[context.production]
+  environment = {NEXT_PUBLIC_BASE_URL = "https://api.eyemark.ng/api",NEXT_PUBLIC_SENTRY_PUBLIC_KEY="https://c4dfab257c4945cf862e44ca18bef9e1@o1155147.ingest.sentry.io/6235549",NEXT_PUBLIC_GOOGLE_ANALYTICS="G-16VYZQK98Z"}
+
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_BASE_URL = "https://staging.eyemark.ng/api"
+
+[context.branch-deploy.environment]
+  NEXT_PUBLIC_BASE_URL = "https://staging.eyemark.ng/api"
+

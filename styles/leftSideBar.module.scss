@@ -1,0 +1,72 @@
+/** @format */
+
+.left-nav-active {
+	color: #252117;
+	font-weight: 600;
+	fill: green;
+	margin-left: 5px;
+	.nav-icon {
+		// filter: invert(77%) sepia(17%) saturate(6456%) hue-rotate(353deg) brightness(107%) contrast(79%);
+		filter: grayscale(100%) brightness(50%) sepia(300%) hue-rotate(50deg)
+			saturate(500%);
+		// filter: invert(89%) sepia(60%) saturate(3419%) hue-rotate(326deg) brightness(86%) contrast(106%)
+	}
+}
+
+.left-nav {
+	@apply inline-flex py-3 space-x-1 hover:text-accepted transition duration-300 ease-in-out;
+}
+
+.overlay-bg {
+	@apply absolute right-0 h-screen top-0 xl:hidden bg-black bg-opacity-10 lg:w-8/12 sm:w-6/12 w-4/12 z-50 ease-in-out transition-all duration-700;
+}
+
+.sidebar {
+	@apply h-screen hidden lg:flex flex-col border-r transform  ease-in-out transition-all duration-300;
+}
+
+.left-nav:hover {
+	.nav-icon {
+		@apply transition duration-300 ease-in-out;
+		filter: grayscale(100%) brightness(50%) sepia(300%) hue-rotate(50deg)
+			saturate(500%);
+	}
+}
+
+.more-modal {
+	@apply inline-block bg-cover h-4 w-4 transition duration-300 ease-in-out;
+	background-image: url("../public/assets/SVG/citizens/more-icon-green.svg");
+}
+
+.more-modal:hover,
+.more-modal:focus {
+	background-image: url("../public/assets/SVG/citizens/more-icon-green.svg");
+}
+
+.mda-nav-items {
+	@apply flex flex-row pl-3 py-3 space-x-2 text-light-grey-2 hover:text-white transition duration-300 ease-in-out cursor-pointer;
+}
+
+.mda-nav-items:hover {
+	.mda-nav-icon {
+		@apply transition duration-300 ease-in-out;
+		filter: grayscale(100%) brightness(50%) sepia(300%) hue-rotate(50deg)
+			saturate(500%);
+	}
+}
+
+.nav-active-mda {
+	@apply bg-sub-text pl-4 rounded-l text-white;
+	font-weight: 600;
+	fill: green;
+	.mda-nav-icon {
+		filter: grayscale(100%) brightness(50%) sepia(300%) hue-rotate(50deg)
+			saturate(500%);
+	}
+}
+
+.nav-active-analytics {
+	@apply text-accepted;
+	font-weight: 600;
+	line-height: 19px;
+}

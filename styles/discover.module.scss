@@ -1,0 +1,283 @@
+/** @format */
+
+.discussed-projects-list {
+	@apply flex px-5 space-x-4 mt-7 overflow-x-auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+		width: 0px;
+		background: transparent;
+	}
+}
+.discover_home {
+	@apply pt-11 px-10 flex-grow;
+	background-color: #f9f9f9;
+
+	@media all and (max-width: 768px) {
+		padding: 20px 8px;
+	}
+
+	@media all and (max-width: 500px) {
+		padding: 1px 0px;
+	}
+
+	.map_placeholder {
+		position: relative;
+		min-height: 400px;
+		@media all and (max-width: 460px) {
+			min-height: 240px;
+		}
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 30;
+		}
+		.location_message {
+			@media all and (max-width: 460px) {
+				max-width: 240px;
+			}
+			h4 {
+				color: #000;
+				font-weight: bold;
+				line-height: 22px;
+				margin-bottom: 16px;
+			}
+			p {
+				color: #adadad;
+				line-height: 17px;
+				margin-bottom: 32px;
+			}
+			@media all and (max-width: 1200px) {
+				img {
+					margin-bottom: 16px;
+				}
+				h4 {
+					margin-bottom: 8px;
+				}
+				p {
+					margin-bottom: 16px;
+				}
+			}
+			.map-button {
+				border-radius: 55px;
+				line-height: 22px;
+				@media (max-width: 460px) {
+					@apply text-xs bg-white w-full border-t border-grey-white rounded-none;
+					line-height: 8px;
+				}
+			}
+		}
+	}
+	.flex.relative {
+		&:hover > .scroll-arrow {
+			display: block;
+		}
+		&:hover > .scroll-arrow.hidden {
+			display: none;
+		}
+	}
+	.scroll-arrow {
+		top: calc(50% - 48px);
+		cursor: pointer;
+		z-index: 1000;
+	}
+
+	.discover-review-content {
+		h4 {
+			color: #a0afbf;
+			font-weight: bold;
+		}
+		p {
+			font-size: 0.8rem;
+			color: #000;
+		}
+		a {
+			color: #e4aa24;
+			font-weight: 600;
+			font-size: 10px;
+		}
+	}
+}
+
+.horizontal-scroll {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+		width: 0px;
+		background: transparent;
+	}
+}
+
+.carousel-overlay {
+	position: absolute;
+	top: 0;
+	background: rgba(187, 183, 183, 0.3);
+	left: 0;
+	z-index: 30;
+}
+
+.map-icon {
+	@apply inline-block bg-cover h-8 w-8 transition duration-300 ease-in-out;
+	background-image: url("../public/assets/SVG/citizens/project-map.svg");
+}
+
+.active-map-icon {
+	@apply inline-block bg-cover h-8 w-8 transition duration-300 ease-in-out;
+	background-image: url("../public/assets/SVG/citizens/active-project-map.svg");
+}
+
+.map-icon:hover,
+.map-icon:focus {
+	background-image: url("../public/assets/SVG/citizens/active-project-map.svg");
+}
+
+.carousel-icon {
+	@apply inline-block bg-cover h-8 w-8 transition duration-300 ease-in-out;
+	background-image: url("../public/assets/SVG/citizens/project-carousel.svg");
+}
+
+.active-carousel-icon {
+	@apply inline-block bg-cover h-8 w-8 transition duration-300 ease-in-out;
+	background-image: url("../public/assets/SVG/citizens/active-project-carousel.svg");
+}
+
+.carousel-icon:hover,
+.carousel-icon:focus {
+	background-image: url("../public/assets/SVG/citizens/active-project-carousel.svg");
+}
+
+.project-source {
+	filter: drop-shadow(0px 9px 45px rgba(61, 132, 172, 0.2));
+}
+
+/** @format */
+
+.discussed-projects-list {
+	@apply flex px-5 space-x-4 mt-7 overflow-x-auto;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+		width: 0px;
+		background: transparent;
+	}
+}
+
+.discover_home_container {
+	@apply w-full flex flex-col relative;
+}
+
+.discover_card {
+	.title {
+		p {
+			font-size: 10px;
+			color: #989898;
+		}
+	}
+}
+
+.search-filter-box {
+	@apply absolute top-12 right-0 lg:right-0 rounded-lg bg-white py-3;
+	box-shadow: 0px 9px 45px rgba(61, 132, 172, 0.2);
+	width: 300px;
+}
+
+.recent-searches {
+	@apply px-4 py-5 absolute top-16 z-40 bg-white;
+	box-shadow: 0px 9px 45px rgba(61, 132, 172, 0.2);
+	border-radius: 20px;
+}
+
+.tag-header-view {
+	@apply p-2 absolute top-11 -left-4 z-40 bg-white flex flex-col justify-center rounded-lg;
+	box-shadow: 0px 9px 45px rgba(61, 132, 172, 0.2);
+}
+
+.feedback-avatars {
+	@apply object-cover border-2 border-grey-white rounded-full overflow-hidden h-5 w-5;
+}
+
+.discover-select-input {
+	@apply pl-3 pr-7 py-1.5 w-full text-xs focus:outline-none rounded focus:border-accepted hover:border-accepted;
+	border: 1px solid #ebebeb;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: white url("../public/assets/SVG/general/grey-caret.svg") 95%
+		center no-repeat !important;
+	background-color: white;
+}
+
+.top-projects-list {
+	@apply flex flex-row flex-wrap items-center sm:justify-start justify-center mt-5;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+		width: 0px;
+		background: transparent;
+	}
+	.scroll-arrow {
+		top: calc(50% - 48px);
+		display: none;
+		cursor: pointer;
+		z-index: 1000;
+	}
+	&:hover > .scroll-arrow {
+		display: block;
+	}
+	&:hover > .scroll-arrow.hidden {
+		display: none;
+	}
+}
+
+.discover-picture:after {
+	content: "\A";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.discover-picture:hover:after {
+	opacity: 1;
+}
+
+.discover-picture {
+	@apply h-8 w-8 rounded-full relative cursor-pointer overflow-hidden;
+}
+
+.date-container input[type="date"]::-webkit-calendar-picker-indicator {
+	color: #999;
+	opacity: 1;
+	display: block;
+	background: url("../public/assets/SVG/general/calender.svg") no-repeat;
+	width: 20px;
+	height: 35px;
+	position: absolute;
+	top: 6px;
+	left: 1px;
+	z-index: 20;
+}
+
+.date-container input[type="date"] {
+	position: relative;
+	height: 38px;
+}
+
+.check-wrapper {
+	@apply relative float-left box-border text-2-xs cursor-pointer rounded-sm flex;
+}

@@ -1,0 +1,65 @@
+/** @format */
+
+.project-detail {
+	@apply flex mt-1 items-center space-x-1;
+}
+
+.began {
+	font-size: 8px;
+	color: #7a7a7a;
+}
+
+.location {
+	font-size: 7.2px;
+	color: #adadad;
+}
+
+.status-tag {
+	@apply uppercase block;
+	padding: 2px;
+	font-size: 4px;
+	line-height: 5px;
+	letter-spacing: 0.05em;
+	color: #252117;
+	background: #ebebeb;
+	box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.5),
+		5px 5px 25px rgba(255, 255, 255, 0.5);
+}
+
+.status {
+	@apply uppercase;
+	font-size: 9px;
+	line-height: 10px;
+}
+
+.project-tag-text {
+	@apply uppercase mr-2;
+	color: #a0afbf;
+	font-size: 10px;
+}
+
+.insight-title {
+	@apply font-medium;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #a0afbf;
+}
+
+.insight {
+	font-family: FilsonPro-Medium, sans-serif !important;
+	color: #000000;
+}
+
+.unmark-button {
+	@apply px-5 py-2 w-full sm:w-auto text-sm sm:text-base   rounded border;
+	font-family: FilsonPro-Medium, sans-serif !important;
+	background: #e2e8f0;
+	border-color: #e2e8f0;
+	color: #757575;
+}
+
+.eyemark-button {
+	@apply px-5 py-2 w-full sm:w-auto text-sm sm:text-base   rounded border;
+	font-family: FilsonPro-Medium, sans-serif !important;
+	background: #fcf6e8;
+}

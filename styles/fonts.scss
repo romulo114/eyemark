@@ -1,0 +1,50 @@
+/** @format */
+
+@font-face {
+	font-family: "FilsonPro-Regular";
+	src: url(../public/assets/fonts/FilsonPro-Regular.ttf) format("truetype");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "FilsonPro-Medium";
+	src: url(../public/assets/fonts/FilsonPro-Medium.ttf) format("truetype");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "FilsonPro-Bold";
+	src: url(../public/assets/fonts/FilsonPro-Bold.ttf) format("truetype");
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "FilsonPro-Medium-Italic";
+	src: url(../public/assets/fonts/FilsonPro-MediumItalic.ttf) format("truetype");
+	font-display: fallback;
+}
+
+* {
+	font-family: FilsonPro-Regular, sans-serif !important;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-synthesis: none !important;
+}
+
+.medium {
+	font-family: FilsonPro-Medium, sans-serif !important;
+}
+
+.font-semibold {
+	font-family: FilsonPro-Medium, sans-serif !important;
+}
+
+.font-bold {
+	font-family: FilsonPro-Bold, sans-serif !important;
+}
+
+.medium-italic {
+	font-family: FilsonPro-Medium-Italic, sans-serif !important;
+}

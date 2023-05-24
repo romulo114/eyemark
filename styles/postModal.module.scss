@@ -1,0 +1,67 @@
+/** @format */
+
+.sentiment-radio {
+	@apply relative flex;
+}
+
+.sentiment-radio .inner-radio {
+	transition: 0.5s ease;
+}
+
+.sentiment-radio input {
+	@apply absolute w-full h-full;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.sentiment-radio .inner-radio {
+	@apply text-xs bg-transparent border border-light-grey-5 rounded-full text-light-grey-5 cursor-pointer flex py-2 px-2 sm:px-3;
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .impressed {
+	@apply bg-accepted-light border border-accepted  text-accepted;
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .excited {
+	background: #fbfaf0;
+	border: 1px solid #d1cdb2;
+	color: #d1cdb2;
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .unimpressed {
+	background: #fcf6e8;
+	border: 1px solid #e4aa24;
+	color: #c8c8c8;
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .hopeful {
+	background: #f9f9f9;
+	border: 1px solid #989898;
+	color: #989898;
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .angry {
+	background: #fbe8e7;
+	border: 1px solid #c82c20;
+	color: #c82c20;
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .suggestion {
+	@apply bg-dark-grey;
+	border: 1px solid rgba(228, 170, 36, 0.8);
+}
+
+.sentiment-radio input[type="radio"]:checked ~ .suggestion > p {
+	background: radial-gradient(
+				101.94% 100% at 49.05% 50%,
+				rgba(228, 170, 36, 0.8) 0%,
+				rgba(252, 246, 232, 0.8) 100%
+			)
+			/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+		#ffffff;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}

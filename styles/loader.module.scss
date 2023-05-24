@@ -1,0 +1,21 @@
+/** @format */
+
+.setting-loader {
+	@apply w-full h-1 fixed top-0 left-0  overflow-hidden;
+	z-index: 10000;
+	background-color: #f0f5f3;
+}
+.setting-loader .setting-load-line {
+	@apply bg-accepted fixed right-0 w-3/12 h-1;
+	z-index: 10000;
+	animation: line-scroll 0.8s infinite;
+	animation-timing-function: ease-in-out;
+}
+@keyframes line-scroll {
+	0% {
+		right: 100%;
+	}
+	100% {
+		right: -150px;
+	}
+}

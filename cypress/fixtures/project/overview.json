@@ -1,0 +1,95 @@
+{
+	"public_id": "renovations-of-fish-technology-offices-and-outstation-offices-re-roofing-of-delapitated-japanese-d-ergp5100788",
+	"name": "Renovations Of Fish Technology Offices And Outstation Offices, Re-Roofing Of Delapitated  Japanese Donated Building In Lagos ",
+	"description": null,
+	"code": "ERGP5100788",
+	"start_date": null,
+	"end_date": null,
+	"sectors": ["CROP PRODUCTION"],
+	"plan": "ERGP",
+	"goal": null,
+	"total_amount_released": "120000000.00",
+	"total_project_cost": "120000000.00",
+	"total_amount_utilized": "120000000.00",
+	"total_financial_commitment": "120000000.00",
+	"percentage_completed": 0,
+	"date_awarded": null,
+	"sdgs": [],
+	"ministry": {
+		"username": "federal-ministry-of-agriculture-and-rural-development",
+		"public_id": "2a1ee834-4367-4cb2-947f-09e2678bce90",
+		"display_name": "FEDERAL MINISTRY OF AGRICULTURE AND RURAL DEVELOPMENT",
+		"avatar": "https://res.cloudinary.com/zst/image/upload/f_auto/q_auto/v1661455012/users/avatars/2a1ee834-4367-4cb2-947f-09e2678bce90.webp",
+		"account_type": "MINISTRY"
+	},
+	"other_ministries": [],
+	"contractors": [],
+	"project_fund": null,
+	"department": null,
+	"contractor": null,
+	"child_projects": [],
+	"contract_type": "PPP",
+	"geo_political_zone": "NORTH CENTRAL",
+	"status": "COMPLETED",
+	"geolocations": [
+		{
+			"state": "LAGOS",
+			"lga": "Lagos Island",
+			"coordinates": {},
+			"grid_3_data": {
+				"health": [],
+				"farms": [],
+				"industries": []
+			}
+		},
+		{
+			"state": "LAGOS",
+			"lga": "Lagos Island",
+			"coordinates": {
+				"latitude": 6.4219558,
+				"longitude": 3.4107374
+			},
+			"grid_3_data": {
+				"health": [],
+				"farms": [],
+				"industries": []
+			}
+		},
+		{
+			"state": "LAGOS",
+			"lga": "",
+			"coordinates": {},
+			"grid_3_data": {
+				"health": [],
+				"farms": [],
+				"industries": []
+			}
+		}
+	],
+	"sentiments": {
+		"angry": 0,
+		"unimpressed": 0,
+		"hopeful": 2,
+		"excited": 2,
+		"impressed": 1
+	},
+	"reviews_count": 5,
+	"eyemarked_count": 4,
+	"is_published": true,
+	"yearly_appropriation": {
+		"2021": 120000000,
+		"2022": 99767138
+	},
+	"appropriation_for_2021": 120000000,
+	"location": [
+		{
+			"longitude": 3.4107374,
+			"latitude": 6.4219558
+		}
+	],
+	"total_appropriation": "339767138.00",
+	"image": "https://res.cloudinary.com/zst/image/upload/f_auto/q_auto/v1648207552/thvarj4ercyw8ojjnvsr.jpg",
+	"views": 3900,
+	"modified": "2022-10-13T13:25:48.007420+01:00",
+	"project_type": null
+}

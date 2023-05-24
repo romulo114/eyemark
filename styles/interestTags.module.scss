@@ -1,0 +1,40 @@
+/** @format */
+
+.tags {
+	@apply py-2.5 px-3.5 mb-5;
+	margin-right: 18px;
+	flex-shrink: 0;
+	box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.5),
+		5px 5px 25px rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	outline: none !important;
+	font-size: 12.8px;
+}
+
+.unclicked-tags {
+	background-color: #f0f5f3;
+	color: #4baa73;
+}
+
+.clicked-tags {
+	color: #4baa73;
+	background-color: #5e5e5e;
+}
+
+.tooltip {
+	font-size: 8px !important;
+	line-height: 158.8% !important;
+	font-weight: 500 !important;
+	color: #718195 !important;
+	line-height: 158.8% !important;
+	overflow-wrap: break-word;
+}
+
+.tooltip-cont {
+	padding: 6px 7px !important;
+	width: 145px !important;
+	background-color: #ffffff !important;
+	border-radius: 4px !important;
+	box-shadow: 0 4px 5px 0px rgba(206, 198, 198, 0.2),
+		0 6px 20px 0 rgba(219, 213, 213, 0.19) !important;
+}

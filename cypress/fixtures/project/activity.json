@@ -1,0 +1,72 @@
+[
+	{
+		"public_id": "aeb5069b-39b7-42ce-b3c2-0804db8bcd0f",
+		"created": "2022-03-14T16:42:10.721872+01:00",
+		"modified": "2022-03-14T16:42:10.722194+01:00",
+		"project": {
+			"public_id": "roofing-and-renovation-of-administrative-block-by-mbnp-ergp251250078",
+			"name": "Roofing And Renovation Of Administrative Block By Mbnp",
+			"sentiments": {
+				"angry": 0,
+				"unimpressed": 4,
+				"hopeful": 3,
+				"excited": 11,
+				"impressed": 0
+			},
+			"states": [],
+			"status": "ON_GOING",
+			"start_date": "2020-03-23",
+			"end_date": "2020-08-05",
+			"total_project_cost": "5000000.00"
+		},
+		"owner": {
+			"username": "squareangle",
+			"public_id": "60f1a6fb-ef5b-4320-b693-f9e028c59e4f",
+			"display_name": "Square Angle",
+			"avatar": "https://res.cloudinary.com/zst/image/upload/f_auto/q_auto/v1646842068/xekydkiaifxdb5awdiqj.png",
+			"account_type": "CONTRACTOR"
+		},
+		"parent": null,
+		"title": "Milestone Update",
+		"body": "we're glad to report that 60% of this project has been completed and everything is on course to wrap up at the expected time",
+		"sentiment": null,
+		"sentiments": {
+			"angry": 0,
+			"unimpressed": 0,
+			"hopeful": 1,
+			"excited": 1,
+			"impressed": 0
+		},
+		"reviews_count": 3,
+		"images": [
+			{
+				"image": "https://res.cloudinary.com/zst/image/upload/f_auto/q_auto/v1647272530/nd2ixvdd4pjiodjyvwdw.jpg",
+				"caption": null,
+				"id": "9fc26fb2187b4b86be007afc6c6f779c",
+				"is_live_photo": true,
+				"longitude": "7.839615",
+				"latitude": "5.187608",
+				"state": null
+			},
+			{
+				"image": "https://res.cloudinary.com/zst/image/upload/f_auto/q_auto/v1647272531/sensypp4eetkyucecbna.jpg",
+				"caption": null,
+				"id": "8a025c6e7ce741e4a70831a02c6058cd",
+				"is_live_photo": true,
+				"longitude": "7.839615",
+				"latitude": "5.187608",
+				"state": null
+			}
+		],
+		"is_review": false,
+		"type_of_post": "UPDATE",
+		"upvotes": {
+			"count": 0,
+			"votes": []
+		},
+		"downvotes": {
+			"count": 0,
+			"votes": []
+		}
+	}
+]

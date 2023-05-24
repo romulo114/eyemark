@@ -1,0 +1,298 @@
+{
+  "ABIA": {
+    "name": "ABIA",
+    "capital": "Umuahia",
+    "coordinates": {
+      "lat": 5.532003041,
+      "lng": 7.486002487
+    }
+  },
+  "ADAMAWA": {
+    "name": "ADAMAWA",
+    "capital": "Yola",
+    "coordinates": {
+      "lat": 9.209992085,
+      "lng": 12.48000281
+    }
+  },
+  "AKWA-IBOM": {
+    "name": "AKWA-IBOM",
+    "capital": "Uyo",
+    "coordinates": {
+      "lat": 5.007996056,
+      "lng": 7.849998524
+    }
+  },
+  "ANAMBRA": {
+    "name": "ANAMBRA",
+    "capital": "Awka",
+    "coordinates": {
+      "lat": 6.210433572,
+      "lng": 7.06999711
+    }
+  },
+  "BAUCHI": {
+    "name": "BAUCHI",
+    "capital": "Bauchi",
+    "coordinates": {
+      "lat": 10.3103642,
+      "lng": 9.84000891
+    }
+  },
+  "BENUE": {
+    "name": "BENUE",
+    "capital": "Makurdi",
+    "coordinates": {
+      "lat": 7.729979064,
+      "lng": 8.530011351
+    }
+  },
+  "BORNO": {
+    "name": "BORNO",
+    "capital": "Maiduguri",
+    "coordinates": {
+      "lat": 11.84996014,
+      "lng": 13.16001298
+    }
+  },
+  "BAYELSA": {
+    "name": "BAYELSA",
+    "capital": "Yenagoa",
+    "coordinates": {
+      "lat": 4.9066661,
+      "lng": 6.2892193
+    }
+  },
+  "CROSS-RIVER": {
+    "name": "CROSS-RIVER",
+    "capital": "Calabar",
+    "coordinates": {
+      "lat": 4.960406513,
+      "lng": 8.330023558
+    }
+  },
+  "DELTA": {
+    "name": "DELTA",
+    "capital": "Asaba",
+    "coordinates": {
+      "lat": 5.519958922,
+      "lng": 5.759999551
+    }
+  },
+  "EBONYI": {
+    "name": "EBONYI",
+    "capital": "Abakaliki",
+    "coordinates": {
+      "lat": 6.177973,
+      "lng": 7.959286
+    }
+  },
+  "EDO": {
+    "name": "EDO",
+    "capital": "Benin",
+    "coordinates": {
+      "lat": 6.340477314,
+      "lng": 5.620008096
+    }
+  },
+  "EKITI": {
+    "name": "EKITI",
+    "capital": "Ado-Ekiti",
+    "coordinates": {
+      "lat": 7.630372741,
+      "lng": 5.219980834
+    }
+  },
+  "ENUGU": {
+    "name": "ENUGU",
+    "capital": "Enugu",
+    "coordinates": {
+      "lat": 6.450031351,
+      "lng": 7.499996703
+    }
+  },
+  "FCT-ABUJA": {
+    "name": "FCT-ABUJA",
+    "capital": "Abuja",
+    "coordinates": {
+      "lat": 9.083333149,
+      "lng": 7.533328002
+    }
+  },
+  "GOMBE": {
+    "name": "GOMBE",
+    "capital": "Gombe",
+    "coordinates": {
+      "lat": 10.29044293,
+      "lng": 11.16995357
+    }
+  },
+  "JIGAWA": {
+    "name": "JIGAWA",
+    "capital": "Dutse",
+    "coordinates": {
+      "lat": 11.7991891,
+      "lng": 9.350334607
+    }
+  },
+  "IMO": {
+    "name": "IMO",
+    "capital": "Owerri",
+    "coordinates": {
+      "lat": 5.492997053,
+      "lng": 7.026003588
+    }
+  },
+  "KADUNA": {
+    "name": "KADUNA",
+    "capital": "Kaduna",
+    "coordinates": {
+      "lat": 10.52001548,
+      "lng": 7.440000365
+    }
+  },
+  "KEBBI": {
+    "name": "KEBBI",
+    "capital": "Birnin Kebbi",
+    "coordinates": {
+      "lat": 12.45041445,
+      "lng": 4.199939737
+    }
+  },
+  "KANO": {
+    "name": "KANO",
+    "capital": "Kano",
+    "coordinates": {
+      "lat": 11.99997683,
+      "lng": 8.5200378
+    }
+  },
+  "KOGI": {
+    "name": "KOGI",
+    "capital": "Lokoja",
+    "coordinates": {
+      "lat": 7.800388203,
+      "lng": 6.739939737
+    }
+  },
+  "LAGOS": {
+    "name": "LAGOS",
+    "capital": "Ikeja",
+    "coordinates": {
+      "lat": 6.443261653,
+      "lng": 3.391531071
+    }
+  },
+  "KATSINA": {
+    "name": "KATSINA",
+    "capital": "Katsina",
+    "coordinates": {
+      "lat": 12.99040733,
+      "lng": 7.599990599
+    }
+  },
+  "KWARA": {
+    "name": "KWARA",
+    "capital": "Ilorin",
+    "coordinates": {
+      "lat": 8.490010192,
+      "lng": 4.549995889
+    }
+  },
+  "NASARAWA": {
+    "name": "NASARAWA",
+    "capital": "Lafia",
+    "coordinates": {
+      "lat": 8.490423603,
+      "lng": 8.5200378
+    }
+  },
+  "NIGER": {
+    "name": "NIGER",
+    "capital": "Minna",
+    "coordinates": {
+      "lat": 9.619992898,
+      "lng": 6.550028848
+    }
+  },
+  "OGUN": {
+    "name": "OGUN",
+    "capital": "Abeokuta",
+    "coordinates": {
+      "lat": 7.160427265,
+      "lng": 3.350017455
+    }
+  },
+  "ONDO": {
+    "name": "ONDO",
+    "capital": "Akure",
+    "coordinates": {
+      "lat": 7.250395934,
+      "lng": 5.199982054
+    }
+  },
+  "RIVERS": {
+    "name": "RIVERS",
+    "capital": "Port Harcourt",
+    "coordinates": {
+      "lat": 4.810002257,
+      "lng": 7.010000772
+    }
+  },
+  "OYO": {
+    "name": "OYO",
+    "capital": "Ibadan",
+    "coordinates": {
+      "lat": 7.380026264,
+      "lng": 3.929982054
+    }
+  },
+  "OSUN": {
+    "name": "OSUN",
+    "capital": "Osogbo",
+    "coordinates": {
+      "lat": 7.770364196,
+      "lng": 4.560021117
+    }
+  },
+  "SOKOTO": {
+    "name": "SOKOTO",
+    "capital": "Sokoto",
+    "coordinates": {
+      "lat": 13.06001548,
+      "lng": 5.240031289
+    }
+  },
+  "PLATEAU": {
+    "name": "PLATEAU",
+    "capital": "Jos",
+    "coordinates": {
+      "lat": 9.929973978,
+      "lng": 8.890041055
+    }
+  },
+  "TARABA": {
+    "name": "TARABA",
+    "capital": "Jalingo",
+    "coordinates": {
+      "lat": 8.900372741,
+      "lng": 11.36001949
+    }
+  },
+  "YOBE": {
+    "name": "YOBE",
+    "capital": "Damaturu",
+    "coordinates": {
+      "lat": 11.74899608,
+      "lng": 11.96600457
+    }
+  },
+  "ZAMFARA": {
+    "name": "ZAMFARA",
+    "capital": "Gusau",
+    "coordinates": {
+      "lat": 12.1704057,
+      "lng": 6.659996296
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "completed": "COMPLETED",
+  "ongoing": "ONGOING",
+  "not_started": "NOT STARTED",
+  "timeline": "TIMELINE",
+  "contract_amount": "CONTR. AMOUNT",
+  "avg_sentiment": "AVG. SENTIMENT",
+  "view_project": "VIEW PROJECT",
+  "status": "STATUS",
+  "see_more": "See more"
+}

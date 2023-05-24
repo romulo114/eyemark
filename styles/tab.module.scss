@@ -1,0 +1,87 @@
+/** @format */
+
+.tabs-active {
+	border-bottom: 2px solid #4baa73;
+	color: black;
+}
+
+.tabs-default {
+	border-bottom: none;
+	color: #a0afbf;
+}
+
+.follow-button {
+	width: 135px;
+	height: 33px;
+	background: #fcf6e8;
+	border: 1px solid #e4aa24;
+	box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.5),
+		5px 5px 25px rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #e4aa24;
+	outline: none !important;
+	@media only screen and (max-width: 750px) {
+		width: 70px;
+		height: 25px;
+		font-size: 12px;
+	}
+}
+
+.follow-button-click {
+	width: 135px;
+	height: 33px;
+	background: #e2e8f0;
+	border: none;
+	box-shadow: none;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #757575;
+	outline: none !important;
+	@media only screen and (max-width: 750px) {
+		width: 70px;
+		height: 25px;
+		font-size: 12px;
+	}
+}
+
+.first-text {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12.8px;
+	line-height: 17px;
+	color: #252117;
+}
+
+.sub-text-1 {
+	font-weight: 500;
+	font-size: 7.2px;
+	line-height: 10px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #adadad;
+}
+
+.text-status {
+	@apply uppercase block;
+	padding: 2px;
+	font-size: 4px;
+	line-height: 5px;
+	letter-spacing: 0.05em;
+	color: #252117;
+	background: #ebebeb;
+	box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.5),
+		5px 5px 25px rgba(255, 255, 255, 0.5);
+}
+
+.text-status-2 {
+	@apply uppercase;
+	font-size: 9px;
+	line-height: 10px;
+}

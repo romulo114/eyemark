@@ -1,0 +1,37 @@
+/** @format */
+
+.top-projects-list {
+	@apply flex flex-row flex-wrap items-center justify-center mt-5;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+		width: 0px;
+		background: transparent;
+	}
+	.scroll-arrow {
+		top: calc(50% - 48px);
+		display: none;
+		cursor: pointer;
+		z-index: 1000;
+	}
+	&:hover > .scroll-arrow {
+		display: block;
+	}
+	&:hover > .scroll-arrow.hidden {
+		display: none;
+	}
+}
+
+.top-survey-list {
+	@apply flex space-x-4 mt-5 overflow-x-hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+		width: 0px;
+		background: transparent;
+	}
+}

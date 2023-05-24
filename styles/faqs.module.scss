@@ -1,0 +1,14 @@
+.faq-hero {
+  background: linear-gradient(
+      135.55deg,
+      rgba(75, 170, 115, 0.8) 47.98%,
+      rgba(0, 0, 0, 0) 99.06%
+    ),
+    linear-gradient(315deg, rgba(37, 33, 23, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    #ffffff;
+}
+
+.faq-categories {
+  @apply bg-grey-white h-44 w-64 rounded-2xl flex flex-col justify-center items-center cursor-pointer mt-7;
+  box-shadow: 0px 8px 30px rgba(61, 132, 172, 0.05);
+}

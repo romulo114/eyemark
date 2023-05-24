@@ -1,0 +1,22 @@
+export const STATUS2 = [
+	"NOT_STARTED",
+	"ON_GOING",
+	"COMPLETED",
+	"ON_HOLD",
+	"CANCELED",
+]
+export const STATUS1 = [
+	"NOT STARTED",
+	"ON GOING",
+	"COMPLETED",
+	"ON HOLD",
+	"CANCELED",
+]
+
+export const STATUSES = {
+	"NOT STARTED": "NOT_STARTED",
+	"ON GOING": "ON_GOING",
+	COMPLETED: "COMPLETED",
+	"ON HOLD": "ON_HOLD",
+	CANCELED: "CANCELED",
+}

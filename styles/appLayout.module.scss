@@ -1,0 +1,52 @@
+/** @format */
+
+.dash-contents {
+	@apply flex sm:h-screen h-[90vh]  overflow-hidden;
+
+	.mainContents {
+		@apply h-full  pb-16 lg:pb-0;
+		background: #f9f9f9;
+	}
+}
+
+.bottom-nav {
+	z-index: 110;
+	box-shadow: 0px 9px 45px rgba(61, 132, 172, 0.2);
+}
+
+.top-bar {
+	@apply bg-white sticky top-0;
+	z-index: 100;
+	box-shadow: 0px 5px 26px rgba(0, 0, 0, 0.05);
+}
+
+.bottom-nav-active {
+	color: #252117;
+	font-weight: 600;
+	.nav-icon {
+		filter: grayscale(100%) brightness(50%) sepia(300%) hue-rotate(50deg)
+			saturate(500%);
+	}
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.default-modal {
+	@apply absolute rounded-lg overflow-hidden top-1/2 left-1/2 right-auto bottom-auto p-0 border-0 outline-none focus:outline-none;
+	box-shadow: -5px -5px 25px rgba(113, 129, 149, 0.2),
+		5px 5px 20px rgba(61, 132, 172, 0.2);
+	transform: translate(-50%, -50%);
+}
+
+.secondary-modal {
+	@apply absolute rounded-lg overflow-hidden top-1/2 left-1/2 right-auto bottom-auto p-0 border-0 outline-none focus:outline-none;
+	transform: translate(-50%, -50%);
+}

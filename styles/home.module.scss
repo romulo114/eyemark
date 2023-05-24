@@ -1,0 +1,122 @@
+.landing-hero {
+  @apply flex flex-col justify-center lg:flex-row px-5 lg:px-0 py-24 lg:pb-16 lg:pt-10 relative overflow-hidden lg:overflow-visible;
+  background: linear-gradient(
+      135.55deg,
+      rgba(75, 170, 115, 0.8) 47.98%,
+      rgba(0, 0, 0, 0) 99.06%
+    ),
+    linear-gradient(315deg, rgba(37, 33, 23, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+    #ffffff;
+
+  .explore-input {
+    @apply bg-white space-x-2 flex justify-between rounded-full px-6 py-2.5 z-20 lg:w-11/12 w-full mt-16 lg:mt-0;
+    box-shadow: 0px 9px 45px rgba(61, 132, 172, 0.2);
+  }
+
+  .partners {
+    @apply w-16 sm:w-20 h-16 sm:h-20 bg-contain;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .partners:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+  }
+
+  .partner1 {
+    background-image: url("https://res.cloudinary.com/zst/image/upload/v1658783118/eyemark/landing/partner1_r23puw.png");
+  }
+}
+
+.landing-section {
+  @apply flex flex-col items-center justify-center lg:flex-row xl:px-32 sm:px-20 px-5 relative;
+
+  .image-section {
+    @apply lg:w-6/12 relative z-20;
+  }
+
+  .explore-projects-green {
+    @apply flex items-center px-6 py-3 rounded-full bg-accepted-light;
+
+    .green-explore-projects-button {
+      background: linear-gradient(
+          135.55deg,
+          rgba(75, 170, 115, 0.8) 47.98%,
+          rgba(0, 0, 0, 0) 99.06%
+        ),
+        linear-gradient(315deg, rgba(37, 33, 23, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+        #ffffff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+
+  .explore-projects-gold {
+    @apply flex items-center px-6 py-3 rounded-full;
+    background: #fcfaf7;
+
+    .gold-explore-projects-button {
+      background: linear-gradient(
+          135.55deg,
+          rgba(228, 170, 36, 0.8) 47.98%,
+          rgba(0, 0, 0, 0) 99.06%
+        ),
+        linear-gradient(315deg, rgba(37, 33, 23, 0.8) 0%, rgba(0, 0, 0, 0) 100%),
+        #ffffff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+
+  .text-section {
+    @apply lg:w-5/12 sm:w-8/12 lg:pb-16 pb-4 relative z-20;
+
+    .text-head {
+      @apply uppercase tracking-sectionhead text-sm;
+    }
+
+    .text-title {
+      @apply mt-3 xl:text-4xl sm:text-4xl text-4xl text-dark-grey;
+    }
+
+    .text-subtitle {
+      @apply mt-10 text-sub-text xl:text-sm text-sm xl:w-9/12 w-11/12;
+    }
+  }
+}
+
+.feature-sub {
+  @apply text-sm text-center mx-auto xl:w-4/12 lg:w-5/12 sm:w-7/12 mt-5;
+  color: #c8c8c8;
+}
+
+.title2 {
+  @apply text-xl;
+  font-family: FilsonPro-Medium, sans-serif !important;
+}
+
+.title3 {
+  @apply text-lg;
+  font-family: FilsonPro-Medium, sans-serif !important;
+}
+
+.title4 {
+  @apply underline;
+  font-family: FilsonPro-Medium, sans-serif !important;
+}
+
+.hyperlink {
+  @apply text-accepted hover:underline;
+}
+
+.th,
+.td {
+  @apply border border-gray-300 p-3;
+}
+
+.tr:nth-child(even) {
+  @apply bg-accepted-light;
+}

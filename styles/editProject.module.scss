@@ -1,0 +1,272 @@
+.projects-container {
+	.navigation1 {
+		height: 64px;
+		background-color: #ffffff;
+		padding: 20px 30px;
+		.nav-text {
+			font-weight: 500;
+			font-size: 16px;
+			font-style: normal;
+		}
+	}
+	.content {
+		padding: 2%;
+		flex-grow: 1;
+	}
+}
+
+.project-sec-header {
+	@apply mt-4 items-center;
+}
+
+.circular-progress {
+	@apply w-16 sm:w-12 h-8 sm:h-12 rounded-full bg-white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circular-progress-track {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #252117;
+}
+
+.project-sec-title {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 19px;
+	color: #252117;
+}
+
+.project-sec {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #c8c8c8;
+}
+
+.form-cont {
+	@apply w-full lg:w-8/12 mt-7 lg:mt-0;
+	.input-container {
+		.MuiInputBase-input {
+			font: inherit;
+			color: currentColor;
+			border: 0;
+			height: 1.1876em;
+			margin: 0;
+			display: block;
+			padding: 12px 12px;
+			min-width: 0;
+			background: none;
+			box-sizing: content-box;
+			animation-name: mui-auto-fill-cancel;
+			letter-spacing: inherit;
+			animation-duration: 10ms;
+			-webkit-tap-highlight-color: transparent;
+		}
+	}
+}
+.form-control-l {
+	.input-container {
+		@apply w-full sm:w-1/3;
+		height: 54px;
+		position: relative;
+		border: 1px solid #a0afbf;
+		padding: 0 17px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		background-color: #fff;
+		.MuiInputBase-input {
+			font: inherit;
+			color: currentColor;
+			border: 0;
+			height: 1.1876em;
+			margin: 0;
+			display: block;
+			padding: 12px 12px;
+			min-width: 0;
+			background: none;
+			box-sizing: content-box;
+			animation-name: mui-auto-fill-cancel;
+			letter-spacing: inherit;
+			animation-duration: 10ms;
+			-webkit-tap-highlight-color: transparent;
+		}
+	}
+}
+
+.text-area-project {
+	@apply w-full mt-12 sm:mt-0;
+	height: 150px;
+}
+
+.project-desc {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+	color: #252117;
+}
+
+.next-project {
+	@apply px-4 bg-accepted;
+	border-radius: 20px;
+	height: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.next-text {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.location-count-cont {
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+.location-no {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.location-title-text {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: #a0afbf;
+}
+
+.p-location {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+	color: #252117;
+}
+
+.b-location {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #252117;
+}
+
+.previous-project {
+	@apply px-4;
+	background: #ffffff;
+	border: 1px solid #edf2f7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.previous-text {
+	font-family: Filson Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.02em;
+	color: #252117;
+}
+
+.rmIcon {
+	@apply absolute z-30 h-full flex items-center right-5 top-0;
+}
+
+.s4-sec1 {
+	@apply w-full sm:w-5/12;
+}
+
+.text-input {
+	@apply px-2 sm:px-5 py-3 text-sm lg:text-base focus:outline-none border border-input-border placeholder-input-border rounded;
+}
+
+.text-input-withicon {
+	@apply py-3 text-sm lg:text-base focus:outline-none border border-input-border placeholder-input-border rounded;
+}
+
+.select-input {
+	@apply px-2 sm:px-5 sm:pr-10 truncate py-3 text-sm lg:text-base focus:outline-none border border-input-border rounded focus:border-accepted hover:border-accepted;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: white url("../public/assets/SVG/project/caret-down.svg") 95%
+		center no-repeat !important;
+	background-color: white;
+}
+
+.select-input-withicon {
+	@apply py-3 text-sm lg:text-base focus:outline-none border border-input-border rounded focus:border-accepted hover:border-accepted;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: white url("../public/assets/SVG/project/caret-down.svg") 95%
+		center no-repeat !important;
+	background-color: white;
+}
+
+.text-area {
+	@apply border px-4 py-4 text-sm border-grey-stroke rounded-lg;
+}
+
+.project-date-container .date-input {
+	@apply h-14 relative px-2 sm:px-5 py-3 text-sm lg:text-base focus:outline-none border border-input-border placeholder-input-border rounded;
+}
+
+.ani {
+	transition: all 0.3s;
+}
+
+.project-date-container input[type="date"]::-webkit-calendar-picker-indicator {
+	color: #999;
+	opacity: 1;
+	display: block;
+	background: url("../public/assets/SVG/general/calender.svg") no-repeat;
+	position: absolute;
+	left: 83%;
+
+	@media screen and (max-width: 450px) {
+		left: 70%;
+	}
+}
+
+.date-container {
+	@apply relative;
+	.edit-project-date {
+		@apply pl-14;
+	}
+}

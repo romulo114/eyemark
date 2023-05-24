@@ -1,0 +1,150 @@
+[
+	{
+		"name": "ABIA",
+		"capital": "Umuahia"
+	},
+	{
+		"name": "ADAMAWA",
+		"capital": "Yola"
+	},
+	{
+		"name": "AKWA-IBOM",
+		"capital": "Uyo"
+	},
+	{
+		"name": "ANAMBRA",
+		"capital": "Awka"
+	},
+	{
+		"name": "BAUCHI",
+		"capital": "Bauchi"
+	},
+	{
+		"name": "BENUE",
+		"capital": "Makurdi"
+	},
+	{
+		"name": "BORNO",
+		"capital": "Maiduguri"
+	},
+	{
+		"name": "BAYELSA",
+		"capital": "Yenagoa"
+	},
+	{
+		"name": "CROSS-RIVER",
+		"capital": "Calabar"
+	},
+	{
+		"name": "DELTA",
+		"capital": "Asaba"
+	},
+	{
+		"name": "EBONYI",
+		"capital": "Abakaliki"
+	},
+	{
+		"name": "EDO",
+		"capital": "Benin"
+	},
+	{
+		"name": "EKITI",
+		"capital": "Ado-Ekiti"
+	},
+	{
+		"name": "ENUGU",
+		"capital": "Enugu"
+	},
+	{
+		"name": "FCT-ABUJA",
+		"capital": "Abuja"
+	},
+	{
+		"name": "GOMBE",
+		"capital": "Gombe"
+	},
+	{
+		"name": "JIGAWA",
+		"capital": "Dutse"
+	},
+	{
+		"name": "IMO",
+		"capital": "Owerri"
+	},
+	{
+		"name": "KADUNA",
+		"capital": "Kaduna"
+	},
+	{
+		"name": "KEBBI",
+		"capital": "Birnin Kebbi"
+	},
+	{
+		"name": "KANO",
+		"capital": "Kano"
+	},
+	{
+		"name": "KOGI",
+		"capital": "Lokoja"
+	},
+	{
+		"name": "LAGOS",
+		"capital": "Ikeja"
+	},
+	{
+		"name": "KATSINA",
+		"capital": "Katsina"
+	},
+	{
+		"name": "KWARA",
+		"capital": "Ilorin"
+	},
+	{
+		"name": "NASARAWA",
+		"capital": "Lafia"
+	},
+	{
+		"name": "NIGER",
+		"capital": "Minna"
+	},
+	{
+		"name": "OGUN",
+		"capital": "Abeokuta"
+	},
+	{
+		"name": "ONDO",
+		"capital": "Akure"
+	},
+	{
+		"name": "RIVERS",
+		"capital": "Port Harcourt"
+	},
+	{
+		"name": "OYO",
+		"capital": "Ibadan"
+	},
+	{
+		"name": "OSUN",
+		"capital": "Osogbo"
+	},
+	{
+		"name": "SOKOTO",
+		"capital": "Sokoto"
+	},
+	{
+		"name": "PLATEAU",
+		"capital": "Jos"
+	},
+	{
+		"name": "TARABA",
+		"capital": "Jalingo"
+	},
+	{
+		"name": "YOBE",
+		"capital": "Damaturu"
+	},
+	{
+		"name": "ZAMFARA",
+		"capital": "Gusau"
+	}
+]
